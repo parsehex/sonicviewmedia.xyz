@@ -18,6 +18,11 @@
   font-family: var(--font-monospace);
 }
 
+.post-meta {
+  display: flex;
+  flex-direction: column;
+}
+
 .post-meta__author {
   font-weight: 700;
 }

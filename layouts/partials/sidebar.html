@@ -11,7 +11,18 @@
     {{ end }}
   {{ end }}
 
-  {{ $cv := index $.Site.Data.json_resume $.Site.Language.Lang }}
+
+  <aside style="text-align: center; font-size: 1.5em;">
+    <a
+      href="https://donorbox.org/justin-colt-canterbury"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Donate
+    </a>
+  </aside>
+
+  <!-- {{ $cv := index $.Site.Data.json_resume $.Site.Language.Lang }}
   {{ if $cv.basics }}
     <aside class="bio">
       {{ partial "json-resume/basics.html" . }}
@@ -21,9 +32,14 @@
       {{ end }}
     </aside>
   {{ end }}
+   -->
 
   {{ if $.Site.Params.tagCloud.enable }}
     <aside>
+      <!-- blue underlined heading -->
+      <p class="sidebar__heading" style="color: #007acc; font-style: italic;">
+        Tags
+      </p>
       {{ partial "tag-cloud.html" . }}
     </aside>
   {{ end }}

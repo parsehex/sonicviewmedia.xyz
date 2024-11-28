@@ -1,11 +1,11 @@
 {
   "author": {
-    "email": "3743342+schnerring@users.noreply.github.com",
-    "name": "Michael Schnerring",
-    "url": "https://schnerring.net"
+    "email": "1779937+parsehex@users.noreply.github.com",
+    "name": "Thomas Mays",
+    "url": "https://thomasmays.net"
   },
   "bugs": {
-    "url": "https://github.com/schnerring/hugo-theme-gruvbox/issues"
+    "url": "https://github.com/parsehex/sonicviewmedia.xyz/issues"
   },
   "comments": {
     "dependencies": {
@@ -50,7 +50,7 @@
     "typeface-fira-code": "^1.1.13",
     "typeface-roboto-slab": "^1.1.13"
   },
-  "description": "A retro-looking Hugo theme inspired by gruvbox. The pastel colors are high contrast, easily distinguishable, pleasing to the eye, and feature light and dark color palettes.",
+  "description": "",
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^6.0.0",
     "cssnano": "^7.0.6",
@@ -72,7 +72,7 @@
     "stylelint": "^16.10.0",
     "stylelint-prettier": "^5.0.2"
   },
-  "homepage": "https://github.com/schnerring/hugo-theme-gruvbox#readme",
+  "homepage": "https://github.com/parsehex/sonicviewmedia.xyz#readme",
   "keywords": [
     "hugo",
     "gruvbox",
@@ -85,10 +85,10 @@
     "*.md": "markdownlint --fix"
   },
   "main": "index.js",
-  "name": "hugo-theme-gruvbox",
+  "name": "sonicviewmedia",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/schnerring/hugo-theme-gruvbox.git"
+    "url": "git+https://github.com/parsehex/sonicviewmedia.xyz.git"
   },
   "scripts": {
     "lint": "npm run lint:css && npm run lint:js && npm run lint:md",
