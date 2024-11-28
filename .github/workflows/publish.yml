@@ -76,6 +76,7 @@ jobs:
       - name: Build Hugo
         run: hugo --minify
 
+      #
       # deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
